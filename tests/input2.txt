@@ -16,7 +16,7 @@ wr 1 y 10
 op lu
 wr 1 x 10
 sk 1 0
-rd 1 5
+rd 1 65
 cl 1
 cl 2
 de ab
