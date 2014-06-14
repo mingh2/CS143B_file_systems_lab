@@ -1,0 +1,37 @@
+
+disk initialized
+lu created
+ab created
+cd created
+df created
+haha created
+ha created
+hags created
+ags created
+rune created
+blll created
+lu ab cd df haha ha hags ags rune blll 
+rune opened 1
+60 bytes written
+10 bytes written
+lu opened 2
+10 bytes written
+position is 0
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxyyyyy
+1 closed
+2 closed
+ab destroyed
+cd destroyed
+df destroyed
+haha destroyed
+ha destroyed
+lu destroyed
+
+disk initialized
+abc created
+abc opened 1
+2 bytes written
+3 bytes written
+position is 0
+xxyy
+y

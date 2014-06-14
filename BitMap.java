@@ -54,6 +54,20 @@ class BitMap {
 
         this.bitmap[arrIndex] = this.bitmap[arrIndex] | this.mask[normIndex];
     }
+
+    /**
+     * slots 1-3 are reserved for the OFT
+     */
+    public int closestOFTEntry() {
+        int row = 0;
+        for (int i=1; i <= 3; i++) {
+            int isZeroBit = (this.bitmap[row] & this.mask[i]);
+            if (isZeroBit == 0) {
+                return this.invIndex(0, i);
+            }
+        }
+        return BITMAP_ERR;
+    }
     
     public int closestDataBlock() {
         for (int i=0; i < 2; i++) {

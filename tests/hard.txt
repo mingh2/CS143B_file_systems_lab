@@ -25,3 +25,12 @@ de df
 de haha
 de ha
 de lu
+
+in
+cr abc
+op abc
+wr 1 x 2
+wr 1 y 3
+sk 1 0
+rd 1 4
+rd 1 4

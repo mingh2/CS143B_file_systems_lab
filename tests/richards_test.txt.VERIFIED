@@ -1,0 +1,51 @@
+disk initialized
+foo created
+error
+abc created
+accc created
+aca created
+foo opened 1
+abc opened 2
+accc opened 3
+abc destroyed
+abc created
+abc opened 2
+abc destroyed
+abc created
+abc opened 2
+zzzz created
+zaza created
+bcbc created
+bbb created
+popo created
+1 closed
+foo opened 1
+60 bytes written
+10 bytes written
+foo destroyed
+192 bytes written
+foo created
+foo opened 1
+64 bytes written
+80 bytes written
+position is 30
+position is 0
+position is 30
+error
+position is 30
+zzzzzzzzzz
+position is 66
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+error
+
+error
+
+foo abc accc aca zzzz zaza bcbc bbb popo 
+disk saved
+error
+position is 0
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+error
+1 closed
+2 closed
+foo abc accc aca zzzz zaza bcbc bbb popo 

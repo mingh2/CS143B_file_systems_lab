@@ -1,4 +1,3 @@
-
 // Lucas Ou-Yang
 // #27404511
 
@@ -23,9 +22,9 @@ public class IO {
 
     public static final int LDISK_SIZE = 64; // blocks
     public static final int BLOCK_SIZE = 64; // 64 bytes ~ 16 integers
-    public static final int DIR_DESCRIPTOR_SIZE = 16; // 16 bytes ~ 4 integers
-    public static final int DESCRIPTOR_SIZE = 16;
+    public static final int DIRECTORY_DESCRIPTOR_SIZE = 16; // 16 bytes ~ 4 integers
     public static final byte EMPTY_BYTE = -1;
+    public static final int DESCRIPTOR_SIZE = 16;
 
     private byte[][] ldisk;
 
@@ -33,19 +32,11 @@ public class IO {
         // second dimension is zero b/c we build "jagged" array
         this.ldisk = new byte[LDISK_SIZE][0];
 
-        // directory descriptor
-        this.ldisk[0] = new byte[DIR_DESCRIPTOR_SIZE];
+        // directory descriptor is 16 bytes
+        this.ldisk[0] = new byte[DIRECTORY_DESCRIPTOR_SIZE];
 
         for (int i=1; i < this.ldisk.length; i++) {
-            this.ldisk[i] = new byte[BLOCK_SIZE];
-            // file descriptors
-            if (i <= NUMB_DESCRIPTOR_BLOCKS) {
-                this.ldisk[i] = new byte[BLOCK_SIZE]; // 16 bytes
-             }
-            // data blocks
-             else {
-                this.ldisk[i] = new byte[BLOCK_SIZE]; // 64 bytes
-             }
+            this.ldisk[i] = new byte[BLOCK_SIZE]; // 64 bytes 
         }
         
         // fill the ldisk with "empties"

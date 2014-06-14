@@ -1,0 +1,43 @@
+
+disk initialized
+foo created
+error
+abc created
+accc created
+aca created
+abc destroyed
+abc created
+error
+zzzz created
+zaza created
+bcbc created
+bbb created
+popo created
+foo destroyed
+foo created
+
+disk initialized
+foo created
+error
+abc created
+accc created
+aca created
+foo destroyed
+abc destroyed
+accc destroyed
+aca destroyed
+error
+
+disk initialized
+abc created
+abc opened 1
+xx created
+p created
+xx opened 2
+abc destroyed
+abc created
+abc opened 1
+zz created
+zz opened 3
+p destroyed
+abc xx zz 

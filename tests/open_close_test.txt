@@ -1,0 +1,42 @@
+in
+cr foo
+cr foo
+cr abc
+cr accc
+cr aca
+de abc
+cr abc
+cr abc
+cr zzzz
+cr zaza
+cr bcbc
+cr bbb
+cr popo
+de foo
+cr foo
+
+in
+cr foo
+cr foo
+cr abc
+cr accc
+cr aca
+de foo
+de abc
+de accc
+de aca
+de foo
+
+in
+cr abc
+op abc
+cr xx
+cr p
+op xx
+de abc
+cr abc
+op abc
+cr zz
+op zz
+de p
+dr 
